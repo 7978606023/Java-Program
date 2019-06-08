@@ -12,16 +12,25 @@ public class FibonaccieTestcase {
 	public void test1(){
 		fib=new Fibonaccie();
 		int actual=fib.fibonaccienum(5);
-		Assert.assertEquals(actual, 7);
+		Assert.assertEquals(actual,34);
 		
 	}
-		
+	
 	@Test
 	public void test2(){
 		fib=new Fibonaccie();
-		int actual=fib.fibonaccienum(3);
-		Assert.assertEquals(actual, 4);
+		int actual=fib.fibonaccienum(0);
+		Assert.assertNotEquals(actual, 0);
 		
 	}
+	
+	@Test
+	public void test3(){
+		fib=new Fibonaccie();
+		int actual=fib.fibonaccienum(1);
+		Assert.assertNotEquals(actual, 1);
+		
+	}
+	
 
 }

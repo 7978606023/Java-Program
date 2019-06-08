@@ -17,10 +17,27 @@ public class TestCaseRemoveDuplicates {
 		da.removeDup(arr);
 	}
 	
-	/*@Test
+	@Test
 	public void test2() {
-		int []arr = {8,3,4,6,8,4,6,3};
-		RemoveDuplicate.removeDup(arr);
-	}*/
+		int []arr = {30,20,0,30,30,40,0,40};
+		da = new DuplicateArray();
+		da.removeDup(arr);
+	}
+	
+	@Test
+	public void test3() {
+		int []arr = {0,-1,3,-5,-1,-3,5,6,5};
+		da = new DuplicateArray();
+		da.removeDup(arr);
+	}
+	
+	@Test
+	public void test4() {
+		int []arr = {12,3,4,4,3,45,66,7,5,3,};
+		da = new DuplicateArray();
+		da.removeDup(arr);
+	}
+	
+
     }
 }

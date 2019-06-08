@@ -15,6 +15,8 @@ public boolean isTwoArrayEqual(int []arr1, int []arr2) {
 		else {
 			isArrayEqual = false;
 		}
+		System.out.println(isArrayEqual);
 		return isArrayEqual;
+		
 	}
 }

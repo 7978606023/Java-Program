@@ -9,7 +9,7 @@ public class PrimeNumberTestcase {
 	PrimeNumber pn;
 	
 	@Test
-	public void test1(){
+	public void testPrimeNumber(){
 		int num = 7;
 		pn=new PrimeNumber();
 		String b=pn.primeNum(num);
@@ -18,12 +18,35 @@ public class PrimeNumberTestcase {
 	}
 	
 	@Test
-	public void test2(){
+	public void testNotPrimeNumber() {
+		int num = 4;
+		pn=new PrimeNumber();
+		String b=pn.primeNum(num);
+		Assert.assertEquals(b, "Not Prime number");
+	}
+	
+	@Test
+	public void testUnitNumber(){
 		int num = 1;
 		String b=pn.primeNum(num);
-		Assert.assertEquals(b, "Prime number");
+		Assert.assertEquals(b, "Not Prime number");
 		
 	}
+	
+	@Test
+	public void testWithZero() {
+		int num = 0;
+		String b=pn.primeNum(num);
+		Assert.assertEquals(b, "Not Prime number");
+	}
 
+	@Test
+	public void testMinusNumber() {
+		int num = -7;
+		String b=pn.primeNum(num);
+		Assert.assertNotEquals(b, "Not Prime number");
+	}
+	
+	
 
 }
