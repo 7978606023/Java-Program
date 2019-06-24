@@ -1,29 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="88" started-at="2019-06-10T07:19:55Z" finished-at="2019-06-10T07:19:55Z">
+  <suite name="Default suite" duration-ms="72" started-at="2019-06-11T19:28:38Z" finished-at="2019-06-11T19:28:38Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="88" started-at="2019-06-10T07:19:55Z" finished-at="2019-06-10T07:19:55Z">
-      <class name="com.wbl.test.DuplicatearrayTestcase$TestCaseRemoveDuplicates">
-        <test-method status="PASS" signature="test1()[pri:0, instance:com.wbl.test.DuplicatearrayTestcase$TestCaseRemoveDuplicates@3a82f6ef]" name="test1" duration-ms="17" started-at="2019-06-10T07:19:55Z" finished-at="2019-06-10T07:19:55Z">
+    <test name="Default test" duration-ms="72" started-at="2019-06-11T19:28:38Z" finished-at="2019-06-11T19:28:38Z">
+      <class name="com.wbl.test.ArrayTestCases">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.wbl.test.ArrayTestCases@6cc4c815]" name="test1" duration-ms="22" started-at="2019-06-11T19:28:38Z" finished-at="2019-06-11T19:28:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test1 -->
-        <test-method status="PASS" signature="test2()[pri:0, instance:com.wbl.test.DuplicatearrayTestcase$TestCaseRemoveDuplicates@3a82f6ef]" name="test2" duration-ms="5" started-at="2019-06-10T07:19:55Z" finished-at="2019-06-10T07:19:55Z">
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.wbl.test.ArrayTestCases@6cc4c815]" name="test2" duration-ms="2" started-at="2019-06-11T19:28:38Z" finished-at="2019-06-11T19:28:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- test2 -->
-        <test-method status="PASS" signature="test3()[pri:0, instance:com.wbl.test.DuplicatearrayTestcase$TestCaseRemoveDuplicates@3a82f6ef]" name="test3" duration-ms="2" started-at="2019-06-10T07:19:55Z" finished-at="2019-06-10T07:19:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test3 -->
-        <test-method status="PASS" signature="test4()[pri:0, instance:com.wbl.test.DuplicatearrayTestcase$TestCaseRemoveDuplicates@3a82f6ef]" name="test4" duration-ms="4" started-at="2019-06-10T07:19:55Z" finished-at="2019-06-10T07:19:55Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-      </class> <!-- com.wbl.test.DuplicatearrayTestcase$TestCaseRemoveDuplicates -->
+      </class> <!-- com.wbl.test.ArrayTestCases -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

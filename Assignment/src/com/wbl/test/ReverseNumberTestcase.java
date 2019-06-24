@@ -13,7 +13,7 @@ public class ReverseNumberTestcase {
 		
 		int num=123;
 		revnum=new ReverseNumber();
-		int result=revnum.Reversenum(num);
+		int result=revnum.reverseNum(num);
 		Assert.assertEquals(result,321);
 	}
 	
@@ -21,7 +21,7 @@ public class ReverseNumberTestcase {
 	public void test2() {
 		
 		int num=564;
-		int result=revnum.Reversenum(num);
+		int result=revnum.reverseNum(num);
 		Assert.assertEquals(result,465);
 	}
 	
@@ -29,7 +29,7 @@ public class ReverseNumberTestcase {
 		public void test3() {
 			
 			int num=064;
-			int result=revnum.Reversenum(num);
+			int result=revnum.reverseNum(num);
 			Assert.assertNotEquals(result,460);
 			
 		}
@@ -38,7 +38,7 @@ public class ReverseNumberTestcase {
 	public void test4() {
 		
 		int num=306;
-		int result=revnum.Reversenum(num);
+		int result=revnum.reverseNum(num);
 		Assert.assertEquals(result,603);
 		
 	}
@@ -47,7 +47,7 @@ public class ReverseNumberTestcase {
 	public void test5() {
 		
 		int num=100;
-		int result=revnum.Reversenum(num);
+		int result=revnum.reverseNum(num);
 		Assert.assertEquals(result,001);
 		
 	}
@@ -56,7 +56,7 @@ public class ReverseNumberTestcase {
 	public void test6() {
 		
 		int num=-386;
-		int result=revnum.Reversenum(num);
+		int result=revnum.reverseNum(num);
 		Assert.assertEquals(result,-683);
 		
 	}

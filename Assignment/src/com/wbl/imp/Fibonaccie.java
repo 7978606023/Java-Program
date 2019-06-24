@@ -1,7 +1,7 @@
 package com.wbl.imp;
 
 public class Fibonaccie {
-	public int fibonaccienum(int num)
+	public int fibonaccieNum(int num)
 	{
 		 int n1=0,n2=1,n3,i,count=10;    
 		 System.out.print(n1+" "+n2);  

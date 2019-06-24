@@ -7,7 +7,6 @@ import com.wbl.imp.DuplicateArray;
 
 public class DuplicatearrayTestcase {
 
-public class TestCaseRemoveDuplicates {
 	DuplicateArray da;
 
 	@Test
@@ -40,4 +39,4 @@ public class TestCaseRemoveDuplicates {
 	
 
     }
-}
+

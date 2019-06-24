@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="62" started-at="2019-06-21T16:35:36Z" finished-at="2019-06-21T16:35:36Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="62" started-at="2019-06-21T16:35:36Z" finished-at="2019-06-21T16:35:36Z">
+      <class name="com.ip.test.TestStringMaximumOccurence">
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.ip.test.TestStringMaximumOccurence@6cc4c815]" name="test1" duration-ms="19" started-at="2019-06-21T16:35:36Z" finished-at="2019-06-21T16:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.ip.test.TestStringMaximumOccurence@6cc4c815]" name="test2" duration-ms="4" started-at="2019-06-21T16:35:36Z" finished-at="2019-06-21T16:35:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+      </class> <!-- com.ip.test.TestStringMaximumOccurence -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
